@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">RealFit</string>
+    <string name="title_activity_login">Sign in</string>
+
+    //sensors
+    <string name="step_counter">android.hardware.sensor.stepcounter</string>
+    <string name="step_detector"> android.hardware.sensor.stepdetector </string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">SIGN UP</string>
+    <string name="prompt_password">Please enter your password</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="email_id">Email ID</string>
+    <string name="btn_link_to_login">Already Registered? Log me in.</string>
+
+    <!-- profile edit -->
+    <string name="full_name">Full Name</string>
+    <string name="gender_prompt">Gender</string>
+    <string name="age">Age</string>
+    <string name="weight">Weight</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="title_activity_image_chooser">ImageChooserActivity</string>
+    <string name="title_activity_profile_photo">ProfilePhotoActivity</string>
+    <string name="height">Height</string>
+    <string name="bmi">BMI</string>
+    <string name="save">Save</string>
+
+    <string name="products">Quickly add an item</string>
+    <!-- arrays -->
+    <string-array name="gender_array">
+
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="weight_array">
+        <item>Kg</item>
+        <item>Lb</item>
+
+    </string-array>
+
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="start">Start Sleeping</string>
+    <string name="reset">Reset Sleeping</string>
+    <string name="progress">Show Progress</string>
+
+
+</resources>

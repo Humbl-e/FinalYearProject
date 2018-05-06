@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fbutton_color_clouds"
+    tools:context="com.realfit1.WaterActivity">
+
+
+    <TextView
+        android:id="@+id/tv_goal_water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Daily Water Intake: "
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/fbutton_color_carrot"
+/>
+    <SeekBar
+        android:id="@id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <me.itangqi.waveloadingview.WaveLoadingView
+        android:id="@+id/wave_view"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:wlv_borderColor="@color/fbutton_color_clouds"
+        app:wlv_borderWidth="3dp"
+        app:wlv_shapeType="circle"
+        app:wlv_round_rectangle="true"
+        app:wlv_triangle_direction="north"
+
+        app:wlv_titleCenterStrokeColor="@color/fbutton_color_belize_hole"
+        app:wlv_titleCenterStrokeWidth="3dp"
+        app:wlv_titleCenterColor="@color/white"
+        app:wlv_titleCenterSize="24sp"
+
+        app:wlv_titleTopStrokeColor="@color/fbutton_color_belize_hole"
+        app:wlv_titleTopStrokeWidth="3dp"
+        app:wlv_titleTopColor="@color/white"
+        app:wlv_titleTopSize="24sp"
+
+        app:wlv_titleBottomStrokeColor="@color/fbutton_color_belize_hole"
+        app:wlv_titleBottomStrokeWidth="3dp"
+        app:wlv_titleBottomColor="@color/white"
+        app:wlv_titleBottomSize="24sp"
+        app:wlv_waveAmplitude="70"
+        app:wlv_waveColor="@color/skyblue"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        >
+        <ImageView
+            android:id="@+id/im_addwater"
+            android:layout_width="200dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_drinkwater"
+
+            />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/wave_view"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
